@@ -1,6 +1,7 @@
 FROM gitpod/workspace-full
 SHELL ["/bin/bash", "-c"]
 
+
 ENV ANDROID_HOME=/home/gitpod/androidsdk \
     FLUTTER_VERSION=2.10.5-stable
 #     FLUTTER_VERSION=2.2.3-stable
